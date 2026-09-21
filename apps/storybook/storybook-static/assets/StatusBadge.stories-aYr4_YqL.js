@@ -1,0 +1,5 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{n as t}from"./iframe-1_dYu9Ht.js";import{n,t as r}from"./StatusBadge-D8JVmfuB.js";var i,a,o,s,c;function l(){return(l=e((()=>{n(),i=t(),a={args:{status:`active`},component:r,parameters:{docs:{description:{component:`A text status indicator. Color reinforces—but never replaces—the visible status label.`}}},title:`Mosaic Design System/Components/Feedback/StatusBadge`},o={},s={render:()=>(0,i.jsx)(`div`,{className:`story-row`,children:[`active`,`inactive`,`pending`,`suspended`,`expired`].map(e=>(0,i.jsx)(r,{status:e},e))})},c=[`Playground`,`AllStatuses`],o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{}`,...o.parameters?.docs?.source}}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  render: () => <div className="story-row">
+      {(['active', 'inactive', 'pending', 'suspended', 'expired'] as const).map(status => <StatusBadge key={status} status={status} />)}
+    </div>
+}`,...s.parameters?.docs?.source}}}})))()}l();export{s as AllStatuses,o as Playground,c as __namedExportsOrder,a as default};

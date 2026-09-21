@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@mosaic-ds/react": ["../../packages/react/src/index.ts"],
+      "@mosaic-ds/react/styles.css": ["../../packages/react/src/styles/index.css"],
+      "@mosaic-ds/tokens": ["../../packages/tokens/src/index.ts"]
+    },
+    "types": ["node", "vite/client"]
+  },
+  "include": [".storybook/**/*.ts", ".storybook/**/*.tsx", "stories/**/*.ts", "stories/**/*.tsx"]
+}

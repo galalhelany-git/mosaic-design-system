@@ -1,0 +1,49 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Mosaic Design System/Introduction/Architecture" />
+
+<div className="docs-page">
+  <header className="docs-hero">
+    <span className="docs-eyebrow">Introduction</span>
+    <h1>Architecture</h1>
+    <div className="docs-lede">Mosaic separates design intent, token data, component behavior, documentation, and application composition.</div>
+  </header>
+
+<ol className="docs-step-list">
+  <li>
+    <div>
+      <strong>Figma</strong>
+      <p>Approved visual intent, anatomy, variants, and UX decisions.</p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <strong>@mosaic-ds/tokens</strong>
+      <p>Typed primitive foundations plus generated CSS custom properties.</p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <strong>@mosaic-ds/react</strong>
+      <p>Typed React components, CSS, accessibility behavior, and localization hooks.</p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <strong>Storybook</strong>
+      <p>Interactive API reference, implemented states, guidance, and release evidence.</p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <strong>Product applications</strong>
+      <p>Routing, permissions, data, responsive page rules, and workflow orchestration.</p>
+    </div>
+  </li>
+</ol>
+
+  <aside className="docs-callout">
+    <strong>Boundary</strong>
+    <div>A Figma variant does not automatically become a React prop. Browser interaction states usually remain CSS behavior; product-level workflows remain application concerns.</div>
+  </aside>
+</div>

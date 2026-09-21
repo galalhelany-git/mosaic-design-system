@@ -1,0 +1,22 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{n as t,p as n}from"./iframe-1_dYu9Ht.js";import{n as r,t as i}from"./clsx-CTwy9ux-.js";import{a,o}from"./Icons-DLfqkhXN.js";import{n as s,t as c}from"./Progress-B2aZcxYr.js";var l,u,d;function f(){return(f=e((()=>{l=n(),r(),s(),o(),u=t(),d=(0,l.forwardRef)(function({accept:e,className:t,description:n=`Drag and drop files here, or browse`,disabled:r=!1,label:o=`Upload files`,multiple:s=!1,onFiles:d,progress:f=0,uploading:p=!1,variant:m=`base`,...h},g){let _=(0,l.useRef)(null),[v,y]=(0,l.useState)(!1),b=(0,l.useId)(),x=e=>{_.current=e,typeof g==`function`?g(e):g&&(g.current=e)},S=e=>{e?.length&&d?.(Array.from(e))},C=e=>{e.preventDefault(),y(!1),!r&&!p&&S(e.dataTransfer.files)},w=e=>{(e.key===`Enter`||e.key===` `)&&!r&&!p&&(e.preventDefault(),_.current?.click())};return(0,u.jsxs)(`div`,{className:i(`mosaic-file-uploader-wrap`,t),children:[(0,u.jsx)(`input`,{...h,accept:e,className:`mosaic-visually-hidden`,disabled:r||p,id:b,multiple:s,onChange:e=>S(e.currentTarget.files),ref:x,type:`file`}),(0,u.jsxs)(`div`,{"aria-controls":b,"aria-disabled":r||p,className:i(`mosaic-file-uploader`,`mosaic-file-uploader--${m}`,v&&`mosaic-file-uploader--dragging`),onClick:()=>!r&&!p&&_.current?.click(),onDragEnter:e=>{e.preventDefault(),!r&&!p&&y(!0)},onDragLeave:e=>{e.currentTarget.contains(e.relatedTarget)||y(!1)},onDragOver:e=>e.preventDefault(),onDrop:C,onKeyDown:w,role:`button`,tabIndex:r||p?-1:0,children:[(0,u.jsx)(`span`,{"aria-hidden":`true`,className:`mosaic-file-uploader__icon`,children:(0,u.jsx)(a,{})}),(0,u.jsxs)(`span`,{className:`mosaic-file-uploader__content`,children:[(0,u.jsx)(`strong`,{children:o}),(0,u.jsx)(`span`,{children:p?`Uploading…`:n})]})]}),p?(0,u.jsx)(c,{"aria-label":`Upload progress`,value:f}):null]})}),d.__docgenInfo={description:``,methods:[],displayName:`FileUploader`,props:{description:{required:!1,tsType:{name:`ReactNode`},description:``,defaultValue:{value:`'Drag and drop files here, or browse'`,computed:!1}},label:{required:!1,tsType:{name:`ReactNode`},description:``,defaultValue:{value:`'Upload files'`,computed:!1}},onFiles:{required:!1,tsType:{name:`signature`,type:`function`,raw:`(files: File[]) => void`,signature:{arguments:[{type:{name:`Array`,elements:[{name:`File`}],raw:`File[]`},name:`files`}],return:{name:`void`}}},description:``},progress:{required:!1,tsType:{name:`number`},description:``,defaultValue:{value:`0`,computed:!1}},uploading:{required:!1,tsType:{name:`boolean`},description:``,defaultValue:{value:`false`,computed:!1}},variant:{required:!1,tsType:{name:`union`,raw:`'base' | 'alternate'`,elements:[{name:`literal`,value:`'base'`},{name:`literal`,value:`'alternate'`}]},description:``,defaultValue:{value:`'base'`,computed:!1}},disabled:{defaultValue:{value:`false`,computed:!1},required:!1},multiple:{defaultValue:{value:`false`,computed:!1},required:!1}},composes:[`Omit`]}})))()}var p,m,h,g,_,v,y;function b(){return(b=e((()=>{f(),p={component:d,args:{onFiles:()=>void 0},parameters:{docs:{description:{component:`A keyboard-accessible native file input surface with browse, drag/drop, disabled, alternate, and consumer-controlled upload progress states.`}}},title:`Mosaic Design System/Components/Forms/File Uploader`},m={},h={args:{variant:`alternate`}},g={args:{progress:64,uploading:!0}},_={args:{disabled:!0}},v={args:{description:`اسحب الملفات هنا أو اخترها`,label:`رفع الملفات`},globals:{direction:`rtl`}},y=[`Base`,`Alternate`,`Uploading`,`Disabled`,`RTL`],m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{}`,...m.parameters?.docs?.source}}},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  args: {
+    variant: 'alternate'
+  }
+}`,...h.parameters?.docs?.source}}},g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  args: {
+    progress: 64,
+    uploading: true
+  }
+}`,...g.parameters?.docs?.source}}},_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{
+  args: {
+    disabled: true
+  }
+}`,..._.parameters?.docs?.source}}},v.parameters={...v.parameters,docs:{...v.parameters?.docs,source:{originalSource:`{
+  args: {
+    description: 'اسحب الملفات هنا أو اخترها',
+    label: 'رفع الملفات'
+  },
+  globals: {
+    direction: 'rtl'
+  }
+}`,...v.parameters?.docs?.source}}}})))()}b();export{h as Alternate,m as Base,_ as Disabled,v as RTL,g as Uploading,y as __namedExportsOrder,p as default};

@@ -1,0 +1,51 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Mosaic Design System/Introduction/Getting Started" />
+
+<div className="docs-page">
+  <header className="docs-hero">
+    <span className="docs-eyebrow">Mosaic design system</span>
+    <h1>Build consistent enterprise experiences</h1>
+    <div className="docs-lede">
+      Mosaic is the implementation reference for reusable React components and audited design foundations for enterprise applications.
+    </div>
+  </header>
+
+## Start here
+
+<div className="docs-card-grid">
+  <article className="docs-card">
+    <h3>Designers</h3>
+    <p>Use the Figma library for approved visual intent, anatomy, variants, and UX decisions.</p>
+  </article>
+  <article className="docs-card">
+    <h3>Engineers</h3>
+    <p>
+      Use Storybook for supported behavior and APIs. Consume the package instead of rebuilding from
+      Figma.
+    </p>
+  </article>
+  <article className="docs-card">
+    <h3>Product teams</h3>
+    <p>
+      Use enterprise patterns as composition guidance. Planned patterns are not production
+      components.
+    </p>
+  </article>
+</div>
+
+## Run Storybook
+
+```sh
+corepack enable
+pnpm install
+pnpm storybook
+```
+
+Storybook runs at `http://localhost:6006`. This repository requires Node 22 or later and pnpm 11.19.0.
+
+  <aside className="docs-callout docs-callout--caution">
+    <strong>Current release posture</strong>
+    <div>The workspace packages are private and versioned 0.0.0. Semantic tokens, published packages, dark theme, approved product breakpoints, and cross-browser/manual screen-reader sign-off remain open work.</div>
+  </aside>
+</div>
